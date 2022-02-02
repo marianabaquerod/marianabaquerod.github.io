@@ -1,0 +1,30 @@
+.Image {
+  text-align: center;
+  padding-top: 20px;
+}
+.avatar {
+  width: 400px;
+}
+.Text {
+  font-size: 60px;
+  font-family: "Poppins", sans-serif;
+}
+.description {
+  color: white;
+  margin-top: -35px;
+  font-family: "Poppins", sans-serif;
+}
+.headerText {
+  font-size: 40px;
+}
+.avatarContainer {
+  margin-top: -50px;
+}
+.about {
+  font-size: 22px;
+  max-width: 600px;
+  margin: auto;
+}
+.boldText {
+  font-weight: bold;
+}

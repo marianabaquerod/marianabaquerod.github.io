@@ -1,0 +1,19 @@
+.Buttons {
+  text-align: end;
+}
+.Header {
+  background-color: white;
+}
+.content {
+  justify-content: space-between;
+}
+.appBar {
+  background-color: white;
+}
+.logo {
+  width: 100px;
+}
+.buttons {
+  font-family: "Poppins", sans-serif;
+  text-transform: lowercase;
+}

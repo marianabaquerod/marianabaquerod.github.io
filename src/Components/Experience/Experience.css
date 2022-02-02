@@ -1,0 +1,15 @@
+.header {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+}
+#logo {
+  width: 300px;
+}
+#info {
+  width: 600px;
+}
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
