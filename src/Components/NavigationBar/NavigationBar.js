@@ -30,7 +30,20 @@ function NavigationBar() {
               textTransform: "none",
               color: "black",
               fontFamily: "Poppins",
+              fontWeight: 300,
+            }}
+          >
+            About
+          </Button>
+          <Button
+            href="#experience"
+            sx={{
+              fontSize: 19,
+              textTransform: "none",
+              color: "black",
+              fontFamily: "Poppins",
               paddingLeft: 10,
+              fontWeight: 300,
             }}
           >
             Experience
@@ -43,6 +56,7 @@ function NavigationBar() {
               color: "black",
               fontFamily: "Poppins",
               paddingLeft: 10,
+              fontWeight: 300,
             }}
           >
             Education
@@ -55,6 +69,7 @@ function NavigationBar() {
               color: "black",
               fontFamily: "Poppins",
               paddingLeft: 10,
+              fontWeight: 300,
             }}
           >
             Contact

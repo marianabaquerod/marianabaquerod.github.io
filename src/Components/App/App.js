@@ -1,7 +1,8 @@
 import NavigationBar from "../NavigationBar/NavigationBar";
 import Avatar from "../Avatar/Avatar";
-import Education from "../Education/Education";
 import Experience from "../Experience/Experience";
+import About from "../About/About";
+import Contact from "../Contact/Contact";
 import "./App.css";
 function App() {
   return (
@@ -9,11 +10,12 @@ function App() {
       <NavigationBar />
       <Avatar />
       <div className="section">
-        <Experience />
+        <About />
       </div>
       <div className="section">
-        <Education />
+        <Experience />
       </div>
+      <Contact />
     </div>
   );
 }

@@ -8,6 +8,7 @@
 .Text {
   font-size: 60px;
   font-family: "Poppins", sans-serif;
+  font-weight: 300;
 }
 .description {
   color: white;

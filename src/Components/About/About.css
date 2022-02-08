@@ -1,0 +1,57 @@
+.header {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+.paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  align-items: center;
+}
+h4 {
+  font-family: "Poppins", sans-serif;
+}
+.textContainer {
+  margin-top: -150px;
+}
+.aboutMeText {
+  font-size: 20;
+  color: black;
+}
+.aboutDescription {
+  margin-top: -60px;
+  max-width: 600;
+}
+.circleOne {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: #91be4a;
+  border-radius: 50%;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.circleTwo {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  background-color: #91be4a;
+  border-radius: 50%;
+  margin-left: 400px;
+}
+.circleThree {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: #91be4a;
+  border-radius: 50%;
+  margin-left: 260px;
+  margin-top: -30px;
+}
+.circles {
+  margin: auto;
+  justify-content: center;
+}

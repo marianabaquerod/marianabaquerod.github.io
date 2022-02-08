@@ -1,15 +1,29 @@
-.header {
-  font-size: 50px;
-  font-family: "Poppins", sans-serif;
-}
-#logo {
-  width: 300px;
-}
-#info {
-  width: 600px;
-}
-.images {
+.gridTitles {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 1300px;
+  margin: auto;
+  justify-content: center;
+}
+h4 {
+  color: black;
+  font-size: 18px;
+}
+.text {
+  width: 260px;
+  text-align: left;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.finalText {
+  width: 260px;
+  text-align: left;
+}
+h6 {
+  color: #91be4a;
+}
+.hero {
+  width: 1200px;
+  height: 500px;
+  background-color: #91be4a;
+  margin: auto;
 }
