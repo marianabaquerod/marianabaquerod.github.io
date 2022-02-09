@@ -22,58 +22,48 @@ function NavigationBar() {
         <IconButton href="/">
           <img className="logo" src={logo} alt="Logo" />
         </IconButton>
-        <div>
-          <Button
-            href="#experience"
-            sx={{
-              fontSize: 19,
-              textTransform: "none",
-              color: "black",
-              fontFamily: "Poppins",
-              fontWeight: 300,
-            }}
-          >
-            About
-          </Button>
-          <Button
-            href="#experience"
-            sx={{
-              fontSize: 19,
-              textTransform: "none",
-              color: "black",
-              fontFamily: "Poppins",
-              paddingLeft: 10,
-              fontWeight: 300,
-            }}
-          >
-            Experience
-          </Button>
-          <Button
-            href="#education"
-            sx={{
-              fontSize: 19,
-              textTransform: "none",
-              color: "black",
-              fontFamily: "Poppins",
-              paddingLeft: 10,
-              fontWeight: 300,
-            }}
-          >
-            Education
-          </Button>
-
-          <Button
-            sx={{
-              fontSize: 19,
-              textTransform: "none",
-              color: "black",
-              fontFamily: "Poppins",
-              paddingLeft: 10,
-              fontWeight: 300,
-            }}
-          >
-            Contact
-          </Button>
+        <div className="buttons">
+          <div className="link">
+            <Button
+              href="#experience"
+              sx={{
+                fontSize: 19,
+                textTransform: "none",
+                color: "black",
+                fontFamily: "Poppins",
+                fontWeight: 300,
+              }}
+            >
+              About
+            </Button>
+          </div>
+          <div className="link">
+            <Button
+              href="#experience"
+              sx={{
+                fontSize: 19,
+                textTransform: "none",
+                color: "black",
+                fontFamily: "Poppins",
+                fontWeight: 300,
+              }}
+            >
+              Experience
+            </Button>
+          </div>
+          <div className="link">
+            <Button
+              sx={{
+                fontSize: 19,
+                textTransform: "none",
+                color: "black",
+                fontFamily: "Poppins",
+                fontWeight: 300,
+              }}
+            >
+              Contact
+            </Button>
+          </div>
         </div>
       </Toolbar>
     </Box>

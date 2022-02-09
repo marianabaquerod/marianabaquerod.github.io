@@ -16,4 +16,8 @@
 .buttons {
   font-family: "Poppins", sans-serif;
   text-transform: lowercase;
+  display: flex;
+}
+.link {
+  padding-left: 30px;
 }

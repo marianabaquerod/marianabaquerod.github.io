@@ -1,18 +1,16 @@
 .gridTitles {
   display: flex;
-  max-width: 1300px;
+  justify-content: flex-end;
+  max-width: 1200px;
   margin: auto;
-  justify-content: center;
 }
 h4 {
-  color: black;
-  font-size: 18px;
+  color: white;
+  font-size: 19px;
 }
 .text {
-  width: 260px;
-  text-align: left;
-  padding-right: 30px;
-  cursor: pointer;
+  padding: 20px;
+  padding-top: 0px;
 }
 .finalText {
   width: 260px;
@@ -20,10 +18,21 @@ h4 {
 }
 h6 {
   color: #91be4a;
+  font-size: 13px;
 }
 .hero {
   width: 1200px;
   height: 500px;
-  background-color: #91be4a;
   margin: auto;
+}
+.imageExperience {
+  text-align: left;
+}
+.images {
+  height: 400px;
+}
+.gridText {
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 80px;
 }
