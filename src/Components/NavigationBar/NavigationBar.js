@@ -11,12 +11,22 @@ import { ButtonGroup } from "@mui/material";
 import logo from "../../Images/mbd.png";
 function NavigationBar() {
   return (
-    <Box sx={{ flexGrow: 1 }} className="Header">
+    <Box
+      sx={{
+        flexGrow: 1,
+        position: "fixed",
+        width: "100%",
+        height: 75,
+        alignItems: "center",
+      }}
+      className="Header"
+    >
       <Toolbar
         className="content"
         sx={{
           width: "80%",
           margin: "auto",
+          maxHeight: 75,
         }}
       >
         <IconButton href="/">
@@ -25,7 +35,7 @@ function NavigationBar() {
         <div className="buttons">
           <div className="link">
             <Button
-              href="#experience"
+              href="#about"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -48,7 +58,7 @@ function NavigationBar() {
                 fontWeight: 300,
               }}
             >
-              Experience
+              Projects
             </Button>
           </div>
           <div className="link">

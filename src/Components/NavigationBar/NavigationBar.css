@@ -3,6 +3,8 @@
 }
 .Header {
   background-color: white;
+  position: "-webkit-sticky";
+  position: "sticky";
 }
 .content {
   justify-content: space-between;

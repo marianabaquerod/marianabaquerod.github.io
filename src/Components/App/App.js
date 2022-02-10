@@ -8,14 +8,16 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
-      <Avatar />
-      <div className="section">
-        <About />
+      <div className="root">
+        <Avatar />
+        <div className="section">
+          <About />
+        </div>
+        <div className="section">
+          <Experience />
+        </div>
+        <Contact />
       </div>
-      <div className="section">
-        <Experience />
-      </div>
-      <Contact />
     </div>
   );
 }

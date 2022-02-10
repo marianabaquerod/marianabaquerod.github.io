@@ -11,14 +11,20 @@ h4 {
 .text {
   padding: 20px;
   padding-top: 0px;
+  text-decoration-line: none;
+  transition: transform ease 4s;
+}
+.text:hover {
+  margin-top: -5px;
 }
 .finalText {
   width: 260px;
   text-align: left;
 }
 h6 {
-  color: #91be4a;
+  color: white;
   font-size: 13px;
+  margin: 0px;
 }
 .hero {
   width: 1200px;
@@ -33,6 +39,25 @@ h6 {
 }
 .gridText {
   text-align: left;
-  padding-left: 10px;
-  padding-top: 80px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.circle {
+  display: flex;
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: 50px;
+  z-index: 10;
+}
+#experience {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+}
+.flexText {
+  align-self: flex-end;
+  padding-bottom: 60px;
 }

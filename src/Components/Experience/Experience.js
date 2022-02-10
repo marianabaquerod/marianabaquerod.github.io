@@ -3,54 +3,72 @@ import "./Experience.css";
 import logo from "../../Images/tillsterlogo.jpeg";
 import info from "../../Images/tillster.png";
 import taxfyle from "../../Images/tax.png";
-import gw from "../../Images/gw.png";
-import iphone from "../../Images/iphone.png";
-import radio from "../../Images/wvum.png";
-import Divider from "@mui/material/Divider";
+import Link from "@mui/material/Link";
+import RestaurantIcon from "@mui/icons-material/Restaurant";
 import Box from "@mui/material/Box";
+import AudiotrackIcon from "@mui/icons-material/Audiotrack";
+import ImportContacts from "@mui/icons-material/ImportContacts";
+import PersonIcon from "@mui/icons-material/Person";
 function Experience() {
-  const [count, setCount] = React.useState(0);
-  const text =
-    count === 0
-      ? info
-      : count === 1
-      ? taxfyle
-      : count === 2
-      ? iphone
-      : count === 3
-      ? logo
-      : iphone;
   return (
     <div id="experience">
-      <h3 className="header">Experience</h3>
-      <div>
+      <div className="flexText">
+        <h3 className="header">Projects</h3>
+        <p>
+          A peek into the projects I've been a part of over the past few years.
+        </p>
+      </div>
+      <div className="flexExperience">
         <div className="gridTitles">
-          <a onClick={() => setCount(2)} className="text">
+          <a href="/hello" className="text">
             <Box
               sx={{
                 width: 270,
                 height: 270,
                 borderRadius: 6,
-                backgroundColor: "#ff5757",
-                boxShadow: "rgba(149, 157, 165, 0.2)",
+                backgroundColor: "#91be4a",
+                boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
               }}
             >
               <div className="gridText">
+                <div className="circle">
+                  {" "}
+                  <RestaurantIcon
+                    sx={{
+                      paddingTop: 1.8,
+                      paddingLeft: 1.6,
+                      color: "#91be4a",
+                      fontSize: 30,
+                    }}
+                  />
+                </div>
+
                 <h4>Tillster </h4>
                 <h6>2018 - 2021</h6>
               </div>
             </Box>
           </a>
-          <a onClick={() => setCount(3)} className="text">
+          <a href="/hello" className="text">
             <Box
               sx={{
                 width: 270,
                 height: 270,
                 borderRadius: 6,
-                backgroundColor: "#ff5757",
+                backgroundColor: "#91be4a",
+                boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
               }}
             >
               <div className="gridText">
+                <div className="circle">
+                  <PersonIcon
+                    sx={{
+                      paddingTop: 1.8,
+                      paddingLeft: 1.6,
+                      color: "#91be4a",
+                      fontSize: 30,
+                    }}
+                  />
+                </div>
                 <h4>Taxfyle</h4>
                 <h6>2019-2020</h6>
               </div>
@@ -58,31 +76,53 @@ function Experience() {
           </a>
         </div>
         <div className="gridTitles">
-          <a onClick={() => setCount(2)} className="text">
+          <a href="/hello" className="text">
             <Box
               sx={{
                 width: 270,
                 height: 270,
                 borderRadius: 6,
-                backgroundColor: "#ff5757",
+                backgroundColor: "#91be4a",
+                boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
               }}
             >
               <div className="gridText">
+                <div className="circle">
+                  <AudiotrackIcon
+                    sx={{
+                      paddingTop: 1.8,
+                      paddingLeft: 1.6,
+                      color: "#91be4a",
+                      fontSize: 30,
+                    }}
+                  />
+                </div>
                 <h4>WVUM - FM </h4>
                 <h6>2018 - 2021</h6>
               </div>
             </Box>
           </a>
-          <a onClick={() => setCount(3)} className="text">
+          <a href="/hello" className="text">
             <Box
               sx={{
                 width: 270,
                 height: 270,
                 borderRadius: 6,
-                backgroundColor: "#ff5757",
+                backgroundColor: "#91be4a",
+                boxShadow: "0 3px 10px rgb(0 0 0 / 0.2)",
               }}
             >
               <div className="gridText">
+                <div className="circle">
+                  <ImportContacts
+                    sx={{
+                      paddingTop: 1.8,
+                      paddingLeft: 1.6,
+                      color: "#91be4a",
+                      fontSize: 30,
+                    }}
+                  />
+                </div>
                 <h4>Graphic Design Final Magazine</h4>
                 <h6>2021</h6>
               </div>
