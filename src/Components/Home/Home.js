@@ -3,8 +3,8 @@ import Avatar from "../Avatar/Avatar";
 import Experience from "../Experience/Experience";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
-import "./App.css";
-function App() {
+import "./Home.css";
+function Home() {
   return (
     <div className="App">
       <NavigationBar />
@@ -22,4 +22,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

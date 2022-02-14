@@ -1,17 +1,24 @@
+import Home from "./components/Home/Home";
+
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./Components/App/App";
-import reportWebVitals from "./reportWebVitals";
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Magazine from "./components/Portfolio/Magazine";
+import Taxfyle from "./components/Portfolio/Taxfyle";
+import Tillster from "./components/Portfolio/Tillster";
+import Radio from "./components/Portfolio/Radio";
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    {" "}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/magazine" element={<Magazine />} />
+      <Route path="/taxfyle" element={<Taxfyle />} />
+      <Route path="/tillster" element={<Tillster />} />
+      <Route path="/radio" element={<Radio />} />
+    </Routes>
+  </Router>,
+
   document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

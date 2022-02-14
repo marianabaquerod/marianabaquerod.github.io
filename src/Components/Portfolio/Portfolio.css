@@ -1,0 +1,84 @@
+.titleText {
+  font-size: 50px;
+  color: black;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.projectsContainer {
+  padding-top: 150px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  padding-bottom: 40px;
+}
+.descriptionText {
+  max-width: 800px;
+  font-family: "Poppins";
+}
+.linkCircle {
+  display: flex;
+  width: 70px;
+  height: 70px;
+  background-color: #91be4a;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-right: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.linkCircles {
+  display: flex;
+  justify-content: flex-start;
+}
+.additionalMaterials {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.additionalMaterialsTaxfyle {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: -30px;
+  justify-content: space-between;
+}
+.reactImage {
+  height: 140px;
+  margin: 20px;
+}
+.project {
+  font-family: "Poppins";
+  padding-top: 20px;
+}
+.logoStyle {
+  height: 500px;
+  padding-top: 90px;
+}
+.projectTitle {
+  font-weight: 300;
+  font-size: 35px;
+  font-family: "Poppins";
+}
+.spanProject {
+  font-weight: 600;
+}
+.infoList {
+  font-family: "Poppins";
+}
+.reduxImage {
+  height: 140px;
+  padding-left: 160px;
+}
+.link {
+  text-transform: none;
+}
+.App {
+  text-align: center;
+}
+.taxfyleContainer {
+  padding-top: 150px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}

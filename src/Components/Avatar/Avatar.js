@@ -22,7 +22,7 @@ function Avatar() {
         <div className="description">
           <h3 className="headerText">Nice to meet you.</h3>
           <p className="about">
-            I am a <span className="boldText">Front-end developer</span> with a
+            I am a <span className="boldText">Front-end Developer</span> with a
             passion for creating simple, useful, and creative code.
           </p>
         </div>

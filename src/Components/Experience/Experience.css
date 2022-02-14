@@ -58,6 +58,5 @@ h6 {
   margin: auto;
 }
 .flexText {
-  align-self: flex-end;
-  padding-bottom: 60px;
+  padding-top: 60px;
 }

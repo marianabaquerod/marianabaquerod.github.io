@@ -16,7 +16,11 @@ function Contact() {
         <Button
           size="medium"
           variant="outlined"
-          sx={{ color: "white", borderColor: "white", fontSize: 18 }}
+          sx={{
+            color: "white",
+            borderColor: "white",
+            fontSize: 18,
+          }}
         >
           Get in touch.
         </Button>
