@@ -25,6 +25,7 @@ function Taxfyle() {
           <div className="linkCircles">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/tickmark-inc."
               className="linkCircle"
             >
@@ -32,6 +33,7 @@ function Taxfyle() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.taxfyle.com/"
               className="linkCircle"
             >
@@ -39,6 +41,7 @@ function Taxfyle() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/taxfyle/"
               className="linkCircle"
             >
@@ -60,13 +63,14 @@ function Taxfyle() {
                 target="_blank"
                 className="whereLink"
                 href="https://www.taxfyle.com/"
+                rel="noreferrer"
               >
                 https://www.taxfyle.com/
               </a>
             </p>
           </div>
         </div>
-        <a target="_blank" href="https://www.taxfyle.com/">
+        <a target="_blank" rel="noreferrer" href="https://www.taxfyle.com/">
           <img className="logoStyle" src={laptop} />
         </a>
       </div>

@@ -50,7 +50,7 @@ function About() {
                 </IconButton>
               </div>
               <div className="circleTwo">
-                <a target="_blank" href={pdf}>
+                <a target="_blank" rel="noreferrer" href={pdf}>
                   <DownloadIcon
                     sx={{ color: "white", fontSize: 35, alignSelf: "center" }}
                   />

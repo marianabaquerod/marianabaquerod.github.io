@@ -29,6 +29,7 @@ function Tillster() {
           <div className="linkCircles">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/tillster/"
               className="linkCircle"
             >
@@ -36,6 +37,7 @@ function Tillster() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.tillster.com/"
               className="linkCircle"
             >
@@ -43,6 +45,7 @@ function Tillster() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/tillsterinc/"
               className="linkCircle"
             >
@@ -64,6 +67,7 @@ function Tillster() {
               <a
                 target="_blank"
                 className="whereLink"
+                rel="noreferrer"
                 href="https://www.greenwichdelivery.com/"
               >
                 https://www.greenwichdelivery.com/
@@ -71,7 +75,11 @@ function Tillster() {
             </p>
           </div>
         </div>
-        <a target="_blank" href="https://www.greenwichdelivery.com/">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.greenwichdelivery.com/"
+        >
           <img className="logoStyle" src={laptop} />
         </a>
       </div>

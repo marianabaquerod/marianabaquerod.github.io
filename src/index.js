@@ -1,15 +1,15 @@
-import Home from "./components/Home/Home";
+import Home from "./Components/Home/Home";
 
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import Magazine from "./components/Portfolio/Magazine";
-import Taxfyle from "./components/Portfolio/Taxfyle";
-import Tillster from "./components/Portfolio/Tillster";
-import Radio from "./components/Portfolio/Radio";
+import Magazine from "./Components/Portfolio/Magazine";
+import Taxfyle from "./Components/Portfolio/Taxfyle";
+import Tillster from "./Components/Portfolio/Tillster";
+import Radio from "./Components/Portfolio/Radio";
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     {" "}
     <Routes>
       <Route path="/" element={<Home />} />

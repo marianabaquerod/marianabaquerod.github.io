@@ -24,6 +24,7 @@ function Radio() {
           <div className="linkCircles">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.linkedin.com/company/wvum-90-5-fm"
               className="linkCircle"
             >
@@ -31,6 +32,7 @@ function Radio() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.wvum.org/"
               className="linkCircle"
             >
@@ -38,6 +40,7 @@ function Radio() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://www.facebook.com/wvum905/"
               className="linkCircle"
             >
@@ -58,6 +61,7 @@ function Radio() {
               <a
                 target="_blank"
                 className="whereLink"
+                rel="noreferrer"
                 href="https://www.wvum.org/"
               >
                 https://www.wvum.org/
@@ -65,7 +69,7 @@ function Radio() {
             </p>
           </div>
         </div>
-        <a target="_blank" href="https://www.wvum.org/">
+        <a target="_blank" rel="noreferrer" href="https://www.wvum.org/">
           <img className="logoStyle" src={laptop} />
         </a>
       </div>

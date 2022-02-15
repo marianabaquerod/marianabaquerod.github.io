@@ -24,7 +24,12 @@ function Magazine() {
             InDesign to ultimately be able to create this magazine.{" "}
           </p>
           <div className="project">
-            <a className="downloadButton" href={Pdf} target="_blank">
+            <a
+              className="downloadButton"
+              href={Pdf}
+              target="_blank"
+              rel="noreferrer"
+            >
               Check out the Magazine
             </a>
           </div>
