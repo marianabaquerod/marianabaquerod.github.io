@@ -65,3 +65,26 @@ h4 {
   margin: auto;
   justify-content: center;
 }
+
+@media (max-width: 900px) {
+  .aboutContainer {
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+    font-size: 16px;
+  }
+  .aboutDescription {
+    padding-left: 10px;
+  }
+  .aboutMeText {
+    font-size: 16px;
+  }
+  .circleOne {
+    width: 80px;
+    height: 80px;
+  }
+  .circleTwo {
+    width: 80px;
+    height: 80px;
+  }
+}

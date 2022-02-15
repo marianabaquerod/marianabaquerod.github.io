@@ -1,10 +1,11 @@
 import React from "react";
-import NavigationBar from "../NavigationBar/NavigationBar";
+import NavigationBar from "../NavigationBar/NavigationBarProjects";
 import Contact from "../Contact/Contact";
 import laptop from "../../Images/tax.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import "./Portfolio.css";
 function Taxfyle() {
   return (
     <div>

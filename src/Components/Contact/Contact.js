@@ -7,13 +7,14 @@ import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function Contact() {
   return (
-    <div className="contact">
+    <div id="contact">
       <div className="contactSection">
         <p className="aboutText">
           Interested in working together?{" "}
           <span className="chat">Let's chat.</span>{" "}
         </p>
         <Button
+          onClick={() => (window.location = "mailto:mbaquerodegwitz@gmail.com")}
           size="medium"
           variant="outlined"
           sx={{
@@ -26,10 +27,17 @@ function Contact() {
         </Button>
       </div>
       <div className="logoSection">
-        <IconButton>
+        <IconButton
+          onClick={() => (window.location = "mailto:mbaquerodegwitz@gmail.com")}
+        >
           <EmailIcon sx={{ color: "white" }} />
         </IconButton>
-        <IconButton>
+        <IconButton
+          onClick={() =>
+            (window.location =
+              "https://www.linkedin.com/in/mariana-baquero-degwitz-b0b929178/")
+          }
+        >
           <LinkedInIcon sx={{ color: "white" }} />
         </IconButton>
         <div className="logoFooter">

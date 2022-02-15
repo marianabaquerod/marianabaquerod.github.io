@@ -82,3 +82,30 @@
   margin: auto;
   display: flex;
 }
+.downloadButton {
+  text-decoration-line: none;
+  color: #91be4a;
+  font-size: 25px;
+}
+.additionalMaterialsMagazine {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  margin-top: -100px;
+  justify-content: space-between;
+}
+@media (max-width: 900px) {
+  .taxfyleContainer {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .projectsContainer {
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .additionalMaterialsMagazine {
+    margin-top: -50px;
+  }
+}

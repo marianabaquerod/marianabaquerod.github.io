@@ -1,5 +1,5 @@
 import React from "react";
-import NavigationBar from "../NavigationBar/NavigationBar";
+import NavigationBar from "../NavigationBar/NavigationBarProjects";
 import Contact from "../Contact/Contact";
 import laptop from "../../Images/gw.png";
 import react from "../../Images/react-native.png";

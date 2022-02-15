@@ -60,3 +60,25 @@ h6 {
 .flexText {
   padding-top: 60px;
 }
+#experience {
+  padding-top: 50px;
+}
+
+@media (max-width: 900px) {
+  #experience {
+    flex-direction: column;
+  }
+  .flexText {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .gridTitles {
+    flex-direction: column;
+    align-content: center;
+  }
+  .flexExperience {
+    justify-content: center;
+    align-items: center;
+  }
+}

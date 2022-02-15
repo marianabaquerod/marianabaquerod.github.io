@@ -23,3 +23,28 @@
 .link {
   padding-left: 30px;
 }
+.drawer {
+  display: none;
+}
+@media (max-width: 900px) {
+  .buttons {
+    display: none;
+  }
+  .drawer {
+    display: block;
+  }
+  .drawerLink {
+    text-decoration-line: none;
+    color: #91be4a;
+    font-weight: 700;
+    padding-bottom: 15px;
+  }
+  .drawerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
