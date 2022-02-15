@@ -14,7 +14,7 @@ function About() {
             <img className="profileImage" src={aboutMe} />
           </div>
           <div className="aboutDescription">
-            <h3 className="header">a little about me..</h3>
+            <h3 className="header">a little about me...</h3>
             <p className="aboutMeText">
               Ever since I was a little girl in Caracas, Venezuela, I've always
               been obsessed with technology. After learning how to code in high
@@ -25,9 +25,10 @@ function About() {
               {" "}
               Throughout my four years at the University of Miami, I was a part
               of several projects that defined my college experience. First, I
-              joined the student-led University of Miami radio station web
-              staff. Also, I was a Software Engineer Intern at Miami-based
-              start-up, Taxfyle, while also being a full time student.{" "}
+              joined the student-led University of Miami radio station web staff
+              as a web and mobile application developer. Also, I was a Software
+              Engineer Intern at Miami-based start-up, Taxfyle, while also being
+              a full time student.{" "}
             </p>
             <p className="aboutMeText">
               Ultimately, upon my graduation from the University of Miami, I
