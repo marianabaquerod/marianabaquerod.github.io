@@ -17,7 +17,7 @@ function Experience() {
       </div>
       <div className="flexExperience">
         <div className="gridTitles">
-          <a href="/tillster" className="text">
+          <a href="/#/tillster" className="text">
             <Box
               sx={{
                 width: 270,
@@ -45,7 +45,7 @@ function Experience() {
               </div>
             </Box>
           </a>
-          <a href="/taxfyle" className="text">
+          <a href="/#/taxfyle" className="text">
             <Box
               sx={{
                 width: 270,
@@ -73,7 +73,7 @@ function Experience() {
           </a>
         </div>
         <div className="gridTitles">
-          <a href="/radio" className="text">
+          <a href="/#/radio" className="text">
             <Box
               sx={{
                 width: 270,
@@ -99,7 +99,7 @@ function Experience() {
               </div>
             </Box>
           </a>
-          <a href="/magazine" className="text">
+          <a href="/#/magazine" className="text">
             <Box
               sx={{
                 width: 270,

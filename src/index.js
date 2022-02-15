@@ -9,14 +9,14 @@ import Taxfyle from "./Components/Portfolio/Taxfyle";
 import Tillster from "./Components/Portfolio/Tillster";
 import Radio from "./Components/Portfolio/Radio";
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router>
     {" "}
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/magazine" element={<Magazine />} />
-      <Route path="/taxfyle" element={<Taxfyle />} />
-      <Route path="/tillster" element={<Tillster />} />
-      <Route path="/radio" element={<Radio />} />
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/magazine" element={<Magazine />} />
+      <Route exact path="/taxfyle" element={<Taxfyle />} />
+      <Route exact path="/tillster" element={<Tillster />} />
+      <Route exact path="/radio" element={<Radio />} />
     </Routes>
   </Router>,
 
