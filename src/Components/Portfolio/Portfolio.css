@@ -94,18 +94,37 @@
   margin-top: -100px;
   justify-content: space-between;
 }
+.whereLink {
+  text-decoration-line: none;
+  color: #ff5757;
+}
+.images {
+  height: 200px;
+}
 @media (max-width: 900px) {
   .taxfyleContainer {
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 80px;
+  }
+  .logoStyle {
+    height: 400px;
   }
   .projectsContainer {
     flex-direction: column;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 80px;
   }
   .additionalMaterialsMagazine {
     margin-top: -50px;
+  }
+  .additionalMaterials {
+    flex-direction: column;
+  }
+  .images {
+    text-align: center;
+    height: 330px;
   }
 }

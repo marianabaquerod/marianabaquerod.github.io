@@ -59,6 +59,9 @@ h6 {
 }
 .flexText {
   padding-top: 60px;
+  text-align: left;
+  font-family: "Poppins";
+  max-width: 450px;
 }
 #experience {
   padding-top: 50px;
@@ -67,18 +70,25 @@ h6 {
 @media (max-width: 900px) {
   #experience {
     flex-direction: column;
+    padding-top: 10px;
   }
   .flexText {
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
   }
+  .header {
+    text-align: center !important;
+  }
   .gridTitles {
     flex-direction: column;
-    align-content: center;
+  }
+  .text {
+    align-self: center;
   }
   .flexExperience {
     justify-content: center;
     align-items: center;
+    padding-top: 30px;
   }
 }

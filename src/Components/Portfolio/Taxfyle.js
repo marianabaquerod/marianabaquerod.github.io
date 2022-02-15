@@ -14,11 +14,13 @@ function Taxfyle() {
         <div>
           <h2 className="titleText">Taxfyle</h2>
           <p className="descriptionText">
-            Taxfyle is considered the “Uber for accounting,” Taxfyle’s software
+            Taxfyle coins itself the “Uber for accounting”. Taxfyle’s software
             allows individuals and companies to post their accounting jobs to a
             central website. The company’s version of “drivers” are CPAs who
-            register on the website and take on work as they are available,
-            completing anything from a simple 1040 to a complex corporate case.
+            register on the website and take on work as they are available to
+            fulfill your tax needs. I began working at Taxfyle as a Software
+            Engineer Intern in May of 2019 and continued working there until May
+            of 2020.
           </p>
           <div className="linkCircles">
             <a
@@ -45,8 +47,8 @@ function Taxfyle() {
           </div>
           <div className="project">
             <p>
-              <span className="spanProject">Who?</span> A Philippines based
-              pizza and pasta chain owned by the Jollibee Foods Corporation.
+              <span className="spanProject">Who?</span> Miami-based startup
+              aiming to improve the way users file their taxes.{" "}
             </p>
             <p>
               <span className="spanProject">What? </span> Redesign for Taxfyle
@@ -54,18 +56,30 @@ function Taxfyle() {
             </p>
             <p>
               <span className="spanProject">Where? </span>{" "}
-              https://www.taxfyle.com/
+              <a
+                target="_blank"
+                className="whereLink"
+                href="https://www.taxfyle.com/"
+              >
+                https://www.taxfyle.com/
+              </a>
             </p>
           </div>
         </div>
-        <img className="logoStyle" src={laptop} />
+        <a target="_blank" href="https://www.taxfyle.com/">
+          <img className="logoStyle" src={laptop} />
+        </a>
       </div>
       <div className="additionalMaterialsTaxfyle">
         <div>
           <h2 className="projectTitle">Additional Information:</h2>
           <ul className="infoList">
             <li>Built and coordinated the launch of the website</li>
-            <li>Managed and fixed all bugs until my departure</li>
+            <li>Worked closely with the UI/UX team to develop the project</li>
+            <li>Managed and fixed all bugs until the website's launch</li>
+            <li>
+              Created automated testing procedures using Jest and Puppeteer
+            </li>
             <li>Built using React JS with Gatsby</li>
           </ul>
         </div>

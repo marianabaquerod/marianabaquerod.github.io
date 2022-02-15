@@ -23,9 +23,9 @@ function Magazine() {
             project, we had to design and create a magazine spread for a
             fictional magazine of our choice.{" "}
           </p>
-          <p>
+          <p className="descriptionText">
             Throughout the semester, we learned how to use Adobe Photoshop and
-            InDesign.
+            InDesign to ultimately be able to create this magazine.{" "}
           </p>
           <div className="project">
             <a className="downloadButton" href={Pdf} target="_blank">

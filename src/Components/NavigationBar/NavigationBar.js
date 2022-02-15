@@ -14,8 +14,10 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import logo from "../../Images/mbd.png";
+import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
+import { CloseOutlined } from "@material-ui/icons";
 function NavigationBar() {
   const [isDrawerOpened, setIsDrawerOpened] = React.useState(false);
   return (
@@ -71,6 +73,7 @@ function NavigationBar() {
           </div>
           <div className="link">
             <Button
+              href="#contact"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -92,14 +95,21 @@ function NavigationBar() {
             open={isDrawerOpened}
             onClose={() => setIsDrawerOpened(false)}
           >
+            <div>
+              <IconButton onClick={() => setIsDrawerOpened(false)}>
+                <CloseOutlined />
+              </IconButton>
+            </div>
             <div className="drawerLinks">
               <a className="drawerLink" href="#about">
                 About
               </a>
+              <Divider />
               <a className="drawerLink" href="#experience">
                 Projects
               </a>
-              <a className="drawerLink" href="#education">
+              <Divider />
+              <a className="drawerLink" href="#contact">
                 Contact
               </a>
             </div>

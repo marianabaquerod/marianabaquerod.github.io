@@ -8,8 +8,6 @@ import ionic from "../../Images/ionic.png";
 import typescript from "../../Images/typescript.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import "./Portfolio.css";
-import logo from "../../Images/tillster.png";
-import redux from "../../Images/redux-logo.png";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
 function Tillster() {
@@ -63,11 +61,19 @@ function Tillster() {
             </p>
             <p>
               <span className="spanProject">Where? </span>{" "}
-              https://www.greenwichdelivery.com/
+              <a
+                target="_blank"
+                className="whereLink"
+                href="https://www.greenwichdelivery.com/"
+              >
+                https://www.greenwichdelivery.com/
+              </a>
             </p>
           </div>
         </div>
-        <img className="logoStyle" src={laptop} />
+        <a target="_blank" href="https://www.greenwichdelivery.com/">
+          <img className="logoStyle" src={laptop} />
+        </a>
       </div>
       <div className="additionalMaterials">
         <div>
@@ -81,15 +87,14 @@ function Tillster() {
           </ul>
         </div>
         <div>
-          <div>
+          <div className="images">
             <img className="reactImage" src={react} />
             <img className="reactImage" src={typescript} />
           </div>
-          <div>
+          <div className="images">
             <img className="reactImage" src={next} />
             <img className="reactImage" src={ionic} />
           </div>
-          <img className="reduxImage" src={redux} />
         </div>
       </div>
       <Contact />

@@ -4,12 +4,16 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import { ButtonGroup } from "@mui/material";
 import logo from "../../Images/mbd.png";
+import Divider from "@mui/material/Divider";
+import Drawer from "@mui/material/Drawer";
+import Button from "@mui/material/Button";
+import { CloseOutlined } from "@material-ui/icons";
 function NavigationBar() {
+  const [isDrawerOpened, setIsDrawerOpened] = React.useState(false);
   return (
     <Box
       sx={{
@@ -63,6 +67,7 @@ function NavigationBar() {
           </div>
           <div className="link">
             <Button
+              href="/#contact"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -74,6 +79,35 @@ function NavigationBar() {
               Contact
             </Button>
           </div>
+        </div>
+        <div className="drawer">
+          <IconButton onClick={() => setIsDrawerOpened(true)}>
+            <MenuIcon />
+          </IconButton>
+          <Drawer
+            anchor="right"
+            open={isDrawerOpened}
+            onClose={() => setIsDrawerOpened(false)}
+          >
+            <div>
+              <IconButton onClick={() => setIsDrawerOpened(false)}>
+                <CloseOutlined />
+              </IconButton>
+            </div>
+            <div className="drawerLinks">
+              <a className="drawerLink" href="/#about">
+                About
+              </a>
+              <Divider />
+              <a className="drawerLink" href="/#experience">
+                Projects
+              </a>
+              <Divider />
+              <a className="drawerLink" href="/#contact">
+                Contact
+              </a>
+            </div>
+          </Drawer>
         </div>
       </Toolbar>
     </Box>

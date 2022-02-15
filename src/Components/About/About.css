@@ -30,12 +30,20 @@ h4 {
   font-family: "Poppins";
   /* width: 50%; */
 }
+.aboutLinksText {
+  font-size: 20;
+  color: black;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 600;
+  padding-top: 30px;
+}
 .aboutDescription {
   padding-left: 60px;
   padding-top: 20px;
 }
 .profileImage {
-  height: 450px;
+  height: 550px;
   border-radius: 50%;
 }
 .aboutContainer {
@@ -47,27 +55,41 @@ h4 {
 }
 .circleOne {
   display: flex;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   background-color: #91be4a;
   border-radius: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
+  justify-content: center;
 }
 .circleTwo {
   display: flex;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   background-color: #ff5757;
   border-radius: 50%;
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-left: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .circles {
+  display: flex;
   margin: auto;
   justify-content: center;
 }
-
+#about {
+  padding-top: 90px;
+}
+.skills {
+  text-align: left;
+  margin: auto;
+  max-width: 1100px;
+  font-family: "Poppins";
+}
 @media (max-width: 900px) {
   .aboutContainer {
+    padding-top: 50px;
     flex-direction: column;
     max-width: 400px;
     margin: auto;
@@ -86,5 +108,8 @@ h4 {
   .circleTwo {
     width: 80px;
     height: 80px;
+  }
+  .profileImage {
+    height: 400px;
   }
 }

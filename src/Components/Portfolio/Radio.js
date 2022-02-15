@@ -16,9 +16,10 @@ function Radio() {
             University of Miami Radio Station (WVUM)
           </h2>
           <p className="descriptionText">
-            Founded in 1968, WVUM is the award winning, completely student-run
-            radio station of the University of Miami. “The Voice” broadcasts
-            over-the-air throughout South Florida and streams worldwide.
+            WVUM is the award winning, completely student-run radio station of
+            the University of Miami. WVUM broadcasts over-the-air throughout
+            South Florida and streams worldwide. As a freshman at the University
+            of Miami, I joined the web staff to practice my programming skills.{" "}
           </p>
           <div className="linkCircles">
             <a
@@ -49,22 +50,37 @@ function Radio() {
               FM
             </p>
             <p>
-              <span className="spanProject">What? </span> Website and mobile
-              apps for the radio station
+              <span className="spanProject">What? </span> Developing and
+              supporting the website and mobile applications for WVUM
             </p>
             <p>
-              <span className="spanProject">Where? </span> https://www.wvum.org/
+              <span className="spanProject">Where? </span>
+              <a
+                target="_blank"
+                className="whereLink"
+                href="https://www.wvum.org/"
+              >
+                https://www.wvum.org/
+              </a>
             </p>
           </div>
         </div>
-        <img className="logoStyle" src={laptop} />
+        <a target="_blank" href="https://www.wvum.org/">
+          <img className="logoStyle" src={laptop} />
+        </a>
       </div>
       <div className="additionalMaterialsTaxfyle">
         <div>
           <h2 className="projectTitle">Additional Information:</h2>
           <ul className="infoList">
-            <li>Assisted with the website and mobile application redesign</li>
-            <li>Managed and fixed any bugs</li>
+            <li>
+              Assisted with developing website and mobile application redesign
+            </li>
+            <li>
+              Mobile Applications were built using Flutter and DART language
+            </li>
+            <li>Website was built using HTML, CSS, and Javascript</li>
+            <li>Managed and fixed bugs during the testing process</li>
             <li>
               Attended weekly meetings to promote WVUM's presence on campus
             </li>

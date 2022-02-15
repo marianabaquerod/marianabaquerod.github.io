@@ -15,7 +15,8 @@ function Experience() {
       <div className="flexText">
         <h3 className="header">Projects</h3>
         <p>
-          A peek into the projects I've been a part of over the past few years.
+          The best way to learn is through hands on experience. Take a peek into
+          the projects I've been a part of over the past few years.
         </p>
       </div>
       <div className="flexExperience">
