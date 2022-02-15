@@ -23,15 +23,15 @@ function About() {
 
             <p className="aboutMeText">
               {" "}
-              Throughout my four years at the University of Miami, I took
-              advantage of several resources that the school offered. I was a
-              part of the University of Miami radio station all four years.
-              Also, I was a Software Engineer Intern at a Miami-based start-up,
-              Taxfyle, while also being a full time student.{" "}
+              Throughout my four years at the University of Miami, I was a part
+              of several projects that defined my college experience. First, I
+              joined the student-led University of Miami radio station web
+              staff. Also, I was a Software Engineer Intern at Miami-based
+              start-up, Taxfyle, while also being a full time student.{" "}
             </p>
             <p className="aboutMeText">
               Ultimately, upon my graduation from the University of Miami, I
-              began working as a front-end software engineer at Tillster.
+              began working as a Front-end Software Engineer at Tillster.
             </p>
             <p className="aboutLinksText">
               Check out my LinkedIn and Resume below for more information.

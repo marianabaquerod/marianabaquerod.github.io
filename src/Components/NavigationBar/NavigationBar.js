@@ -36,7 +36,7 @@ function NavigationBar() {
         <div className="buttons">
           <div className="link">
             <Button
-              href="#about"
+              href="/#/Tillster"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -45,12 +45,12 @@ function NavigationBar() {
                 fontWeight: 300,
               }}
             >
-              About
+              Tillster
             </Button>
           </div>
           <div className="link">
             <Button
-              href="#experience"
+              href="/#/taxfyle"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -59,12 +59,12 @@ function NavigationBar() {
                 fontWeight: 300,
               }}
             >
-              Projects
+              Taxfyle
             </Button>
           </div>
           <div className="link">
             <Button
-              href="#contact"
+              href="/#/radio"
               sx={{
                 fontSize: 19,
                 textTransform: "none",
@@ -73,7 +73,21 @@ function NavigationBar() {
                 fontWeight: 300,
               }}
             >
-              Contact
+              WVUM
+            </Button>
+          </div>
+          <div className="link">
+            <Button
+              href="/#/magazine"
+              sx={{
+                fontSize: 19,
+                textTransform: "none",
+                color: "black",
+                fontFamily: "Poppins",
+                fontWeight: 300,
+              }}
+            >
+              Magazine
             </Button>
           </div>
         </div>
@@ -92,16 +106,20 @@ function NavigationBar() {
               </IconButton>
             </div>
             <div className="drawerLinks">
-              <a className="drawerLink" href="#about">
-                About
+              <a className="drawerLink" href="/#/tillster">
+                Tillster
               </a>
               <Divider />
-              <a className="drawerLink" href="#experience">
-                Projects
+              <a className="drawerLink" href="/#/taxfyle">
+                Taxfyle
               </a>
               <Divider />
-              <a className="drawerLink" href="#contact">
-                Contact
+              <a className="drawerLink" href="/#/radio">
+                WVUM
+              </a>
+              <Divider />
+              <a className="drawerLink" href="/#/magazine">
+                Magazine
               </a>
             </div>
           </Drawer>
