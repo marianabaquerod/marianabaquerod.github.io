@@ -106,16 +106,20 @@ function NavigationBar() {
               </IconButton>
             </div>
             <div className="drawerLinks">
-              <a className="drawerLink" href="/#about">
-                About
+              <a className="drawerLink" href="/#/tillster">
+                Tillster
               </a>
               <Divider />
-              <a className="drawerLink" href="/#experience">
-                Projects
+              <a className="drawerLink" href="/#/taxfyle">
+                Taxfyle
               </a>
               <Divider />
-              <a className="drawerLink" href="/#contact">
-                Contact
+              <a className="drawerLink" href="/#/radio">
+                WVUM
+              </a>
+              <Divider />
+              <a className="drawerLink" href="/#/magazine">
+                Magazine
               </a>
             </div>
           </Drawer>
