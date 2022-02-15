@@ -3,10 +3,6 @@ import Contact from "../Contact/Contact";
 import laptop from "../../Images/final1.jpg";
 import "./Portfolio.css";
 import Pdf from "../../Images/FinalMagazine.pdf";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import OpenInBrowserIcon from "@mui/icons-material/OpenInBrowser";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import Button from "@mui/material/Button";
 import NavigationBar from "../NavigationBar/NavigationBarProjects";
 function Magazine() {
   return (

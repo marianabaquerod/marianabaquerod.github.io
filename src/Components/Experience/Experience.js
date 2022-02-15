@@ -1,9 +1,5 @@
 import * as React from "react";
 import "./Experience.css";
-import logo from "../../Images/tillsterlogo.jpeg";
-import info from "../../Images/tillster.png";
-import taxfyle from "../../Images/tax.png";
-import Link from "@mui/material/Link";
 import RestaurantIcon from "@mui/icons-material/Restaurant";
 import Box from "@mui/material/Box";
 import AudiotrackIcon from "@mui/icons-material/Audiotrack";
