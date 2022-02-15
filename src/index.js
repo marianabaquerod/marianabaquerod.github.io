@@ -3,7 +3,7 @@ import Home from "./components/Home/Home";
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Magazine from "./components/Portfolio/Magazine";
 import Taxfyle from "./components/Portfolio/Taxfyle";
 import Tillster from "./components/Portfolio/Tillster";
