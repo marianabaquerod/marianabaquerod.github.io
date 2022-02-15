@@ -94,16 +94,6 @@ function Tillster() {
             <li>UI Library: Ionic and React Native Paper</li>
           </ul>
         </div>
-        <div>
-          <div className="images">
-            <img className="reactImage" src={react} />
-            <img className="reactImage" src={typescript} />
-          </div>
-          <div className="images">
-            <img className="reactImage" src={next} />
-            <img className="reactImage" src={ionic} />
-          </div>
-        </div>
       </div>
       <Contact />
     </div>
